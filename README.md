@@ -1,4 +1,5 @@
 # mongoose-soft-deleting
+
 Package for operating soft delete on mongoose models
 
 # Install
@@ -103,6 +104,12 @@ const TestModel = mongoose.model('Test', TestSchema);
 const UserTestModel = mongoose.model('UserTest', UserTestSchema);
 
 // ...
+
+const user = UserTestModel.findById(...);
+const test = TestModel.findById(...);
+
+test.softDelete(true, user);
+
 ```
 
 # Test
