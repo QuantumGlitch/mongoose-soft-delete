@@ -1,0 +1,30 @@
+{
+  "name": "mongoose-soft-deleting",
+  "version": "1.0.0",
+  "description": "Package for operating soft delete on mongoose models",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha test.js --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuantumGlitch/mongoose-soft-delete.git"
+  },
+  "keywords": [
+    "mongoose",
+    "soft",
+    "delete",
+    "author",
+    "deleted by",
+    "deleted at"
+  ],
+  "author": "QuantumGlitch",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/QuantumGlitch/mongoose-soft-delete/issues"
+  },
+  "homepage": "https://github.com/QuantumGlitch/mongoose-soft-delete#readme",
+  "dependencies": {
+    "mongoose": "^5.10.7"
+  }
+}
