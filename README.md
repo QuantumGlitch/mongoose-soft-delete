@@ -69,7 +69,7 @@ The package provide a middleware hook too for intercepting the pre soft deleting
   await doc.remove();
 
   // To know if it is deleted
-  const isDeleted = doc.isDeleted() || doc._deleted;
+  const isDeleted = doc.isSoftDeleted() || doc._deleted;
 
   // To know when
   const deletedAt = doc._deletedAt;
