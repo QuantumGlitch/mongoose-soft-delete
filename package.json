@@ -19,7 +19,7 @@
     "deleted at"
   ],
   "author": "QuantumGlitch",
-  "license": "GPL-3.0",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/QuantumGlitch/mongoose-soft-delete/issues"
   },

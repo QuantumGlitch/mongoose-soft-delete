@@ -1,4 +1,4 @@
-# mongoose-soft-deleting
+# Package: mongoose-soft-deleting
 
 Package for operating soft delete on mongoose models
 
