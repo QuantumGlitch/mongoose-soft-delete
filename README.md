@@ -4,7 +4,9 @@ Package for operating soft delete on mongoose models
 
 # Install
 
-`npm i mongoose-soft-deleting`
+```shell
+npm i mongoose-soft-deleting
+```
 
 # Usage
 
@@ -114,4 +116,8 @@ test.softDelete(true, user);
 
 # Test
 
-`npm run test`
+You can try the tests using the following command ( before you need to change the connection to MongoDB ) :
+
+```shell
+npm run test
+```

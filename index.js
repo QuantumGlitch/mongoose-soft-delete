@@ -1,5 +1,3 @@
-const { Schema } = require('mongoose');
-
 /**
  * @param {Schema} schema
  * @param {Object} options

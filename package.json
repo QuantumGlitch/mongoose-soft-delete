@@ -24,7 +24,5 @@
     "url": "https://github.com/QuantumGlitch/mongoose-soft-delete/issues"
   },
   "homepage": "https://github.com/QuantumGlitch/mongoose-soft-delete#readme",
-  "dependencies": {
-    "mongoose": "^5.10.7"
-  }
+  "dependencies": {}
 }
