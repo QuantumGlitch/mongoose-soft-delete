@@ -1,6 +1,6 @@
 {
   "name": "mongoose-soft-deleting",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package for operating soft delete on mongoose models",
   "main": "index.ts",
   "scripts": {
